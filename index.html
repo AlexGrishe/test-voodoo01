@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test Voodoo</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+	<section class="form-section">
+		<h3 class="form-section__header-text">Contact Us</h3>
+		<span class="form-section__description-text">The Voodoo team is looking forward to hearing from you!</span>
+		<form class="form-block">
+			<input class="form-block__input-name" type="text" id="name" required placeholder="Full Name*">
+			<!--			<label for="name">Full Name</label>-->
+
+			<input class="form-block__input-title" type="text" id="title" required placeholder="Title/Position*">
+			<!--			<label for="title">Title/Position</label>-->
+
+			<select class="form-block__select-practice-institution select-practice-institution">
+				<option value="" class="select-practice-institution__head" disabled selected hidden>Practice / Institution*</option>
+				<option value="1" class="select-practice-institution__option">Option 1(pi)</option>
+				<option value="2" class="select-practice-institution__option">Option 2(pi)</option>
+				<option value="3" class="select-practice-institution__option">Option 3(pi)</option>
+				<option value="4" class="select-practice-institution__option">Option 4(pi)</option>
+			</select>
+
+			<input class="form-block__input-email" type="email" id="email" placeholder="Email*" required>
+			<!--			<label for="email">Email</label>-->
+
+			<input class="form-block__input-phone" type="text" id="phone" required placeholder="Phone Number*">
+			<!--			<label for="phone">Phone Number</label>-->
+
+			<select class="form-block__select-medical-profession select-medical-profession">
+				<option class="select-medical-profession__option">Option 1(mp)</option>
+				<option class="select-medical-profession__option">Option 2(mp)</option>
+				<option class="select-medical-profession__option">Option 3(mp)</option>
+			</select>
+
+			<select class="form-block__select-type-of-inquiry select-type-of-inquiry">
+				<option class="select-type-of-inquiry__option">Option 1(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 2(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 3(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 4(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 5(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 6(ti)</option>
+				<option class="select-type-of-inquiry__option">Option 7(ti)</option>
+			</select>
+
+			<textarea class="form-block__input-message" type="text" id="message" required placeholder="Enter message*"></textarea>
+			<!--			<label for="message">Enter Message</label>-->
+		</form>
+		<button class="form-section__submit-btn" type="submit">Send Message</button>
+	</section>
+	<section class="map-section">
+		<div class="map-block">Map</div>
+	</section>
+</div>
+
+<!--<div class="container" style="z-index: 100">-->
+<!--	<select class="selectArrPracticeInstitution">-->
+<!--		<option>Option 1</option>-->
+<!--		<option>Option 2</option>-->
+<!--		<option>Option 3</option>-->
+<!--		<option>Option 4</option>-->
+<!--		<option>Option 5</option>-->
+<!--	</select>-->
+
+<!--	<select>-->
+<!--		<option>Option 1</option>-->
+<!--		<option>Option 2</option>-->
+<!--		<option>Option 3</option>-->
+<!--	</select>-->
+
+<!--	<select>-->
+<!--		<option>Option 1</option>-->
+<!--		<option>Option 2</option>-->
+<!--		<option>Option 3</option>-->
+<!--		<option>Option 4</option>-->
+<!--		<option>Option 5</option>-->
+<!--		<option>Option 6</option>-->
+<!--		<option>Option 7</option>-->
+<!--	</select>-->
+
+<!--	<span class="test1">1</span>-->
+<!--	<span class="test2">2</span>-->
+<!--	<span class="test3">3</span>-->
+
+<!--</div>-->
+
+<script src="assets/js/index.js"></script>
+</body>
+</html>

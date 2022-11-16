@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Avenir Next Font';
+    src: url("../../fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+h1, h2, h3, h4, h5, h6, p, span, button {
+    padding: 0;
+    margin: 0;
+}
+
+input, .form-block__input-message {
+    outline: none;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    background: linear-gradient(56deg, rgba(111, 132, 136, 0.15) 6%, rgba(183, 152, 145, 0.16) 18%);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 630px 470px;
+    grid-template-rows: 974px;
+    grid-column-gap: 40px;
+    margin: 137px 148px 380px 148px;
+}
+
+.form-section {
+    background: none;
+}
+
+.form-section__header-text {
+    font-family: 'Avenir Next Font', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1A1A;
+}
+
+.form-section__description-text {
+    display: block;
+    margin: 13px 0 35px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+
+.form-block__input-name {
+    grid-area: input-name;
+}
+
+.form-block__input-title {
+    grid-area: input-title;
+}
+
+.select-practice-institution {
+    grid-area: select-practice-institution;
+}
+
+.form-block__input-email {
+    grid-area: input-email;
+}
+
+.select-practice-institution {
+    grid-area: select-practice-institution;
+}
+
+.form-block__input-phone {
+    grid-area: input-phone;
+}
+
+.select-medical-profession {
+    grid-area: select-medical-profession;
+}
+
+.select-type-of-inquiry {
+    grid-area: select-type-of-inquiry;
+}
+
+.form-block__input-message {
+    grid-area: input-message;
+}
+
+.form-block {
+    display: grid;
+    grid-template-areas:
+            'input-name input-title'
+            'select-practice-institution input-email'
+            'input-phone select-medical-profession'
+            'select-type-of-inquiry select-type-of-inquiry'
+            'input-message input-message';
+    grid-template-columns: repeat(2, 299px);
+    grid-template-rows: repeat(4, 64px) 338px;
+    gap: 35px;
+}
+
+.form-block > input {
+    border: none;
+    border-radius: 8px;
+    padding: 18px 0 18px 19px;
+}
+
+.form-block > input::placeholder, .form-block__input-message::placeholder {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #414042;
+    opacity: 0.5;
+}
+
+.form-block__input-message {
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 0 18px 19px;
+}
+
+.form-section__submit-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 221px;
+    height: 57px;
+    padding-top: 4px;
+    margin-top: 51px;
+    background: #1A1A1A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-section__submit-btn:hover {
+    background: rgba(26, 26, 26, 1);;
+    box-shadow: 0 1px #171717;
+}
+
+.form-section__submit-btn:active {
+    background: rgba(26, 26, 26, 0.9);;
+    transform: translateY(1px);
+}
+
+.map-section {
+    background: red;
+}
+
+
+/*body {*/
+/*    background: linear-gradient(to bottom right, blue, pink);*/
+/*    opacity: 0.2;*/
+/*}*/
+
+
+/*.test1 {*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*.test2 {*/
+/*    font-size: 24px;*/
+/*    font-family: 'Inter', sans-serif;*/
+/*}*/
+
+/*.test3 {*/
+/*    font-size: 14px;*/
+/*    font-family: 'Avenir Next Font', sans-serif;*/
+/*}*/
