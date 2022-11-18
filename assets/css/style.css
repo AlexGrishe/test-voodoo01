@@ -18,7 +18,7 @@ textarea {
 }
 
 body {
-    background: linear-gradient(56deg, rgba(111, 132, 136, 0.15) 6%, rgba(183, 152, 145, 0.16) 18%);
+    background: linear-gradient(56deg, rgba(111, 132, 136, 0.15) 6%, rgba(239, 233, 233, 0.16) 18%);
 }
 
 .container {
@@ -107,6 +107,7 @@ body {
     border: none;
     border-radius: 8px;
     padding: 18px 0 18px 19px;
+    box-shadow: 0 16px 32px rgba(202, 203, 210, 0.25);
 }
 
 .form-block > input::placeholder, .form-block__input-message::placeholder {
@@ -155,26 +156,49 @@ body {
 }
 
 .map-section {
-    background: red;
+    height: 936px;
+    background: rgba(110, 110, 110, 0.5);
+    margin-top: 10px;
+}
+
+.map-block {
+    width: 100%;
+    height: 100%;
+}
+
+.map-block__address-block {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.address_block__header {
+    font-weight: 900;
+}
+
+.map-block__contacts-block {
+    display: grid;
+    grid-template-areas: 'a b c'
+                         'a b c';
+    grid-column-gap: 7px;
+    grid-row-gap: 5px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #858585;
+    width: 187px;
+    padding-right: 10px;
+    justify-content: start;
+}
+
+.map-block__contacts-block img {
+    margin-top: 1px;
 }
 
 
-/*body {*/
-/*    background: linear-gradient(to bottom right, blue, pink);*/
-/*    opacity: 0.2;*/
-/*}*/
 
 
-/*.test1 {*/
-/*    font-size: 24px;*/
-/*}*/
 
-/*.test2 {*/
-/*    font-size: 24px;*/
-/*    font-family: 'Inter', sans-serif;*/
-/*}*/
-
-/*.test3 {*/
-/*    font-size: 14px;*/
-/*    font-family: 'Avenir Next Font', sans-serif;*/
-/*}*/

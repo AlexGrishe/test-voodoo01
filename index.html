@@ -22,7 +22,9 @@
 			<!--			<label for="title">Title/Position</label>-->
 
 			<select class="form-block__select-practice-institution select-practice-institution">
-				<option value="" class="select-practice-institution__head" disabled selected hidden>Practice / Institution*</option>
+				<option value="" class="select-practice-institution__head" disabled selected hidden>Practice /
+					Institution*
+				</option>
 				<option value="1" class="select-practice-institution__option">Option 1(pi)</option>
 				<option value="2" class="select-practice-institution__option">Option 2(pi)</option>
 				<option value="3" class="select-practice-institution__option">Option 3(pi)</option>
@@ -51,47 +53,22 @@
 				<option class="select-type-of-inquiry__option">Option 7(ti)</option>
 			</select>
 
-			<textarea class="form-block__input-message" type="text" id="message" required placeholder="Enter message*"></textarea>
+			<textarea class="form-block__input-message" type="text" id="message" required
+					  placeholder="Enter message*"></textarea>
 			<!--			<label for="message">Enter Message</label>-->
 		</form>
 		<button class="form-section__submit-btn" type="submit">Send Message</button>
 	</section>
 	<section class="map-section">
-		<div class="map-block">Map</div>
+		<div id="map-block" class="map-block"></div>
 	</section>
 </div>
 
-<!--<div class="container" style="z-index: 100">-->
-<!--	<select class="selectArrPracticeInstitution">-->
-<!--		<option>Option 1</option>-->
-<!--		<option>Option 2</option>-->
-<!--		<option>Option 3</option>-->
-<!--		<option>Option 4</option>-->
-<!--		<option>Option 5</option>-->
-<!--	</select>-->
-
-<!--	<select>-->
-<!--		<option>Option 1</option>-->
-<!--		<option>Option 2</option>-->
-<!--		<option>Option 3</option>-->
-<!--	</select>-->
-
-<!--	<select>-->
-<!--		<option>Option 1</option>-->
-<!--		<option>Option 2</option>-->
-<!--		<option>Option 3</option>-->
-<!--		<option>Option 4</option>-->
-<!--		<option>Option 5</option>-->
-<!--		<option>Option 6</option>-->
-<!--		<option>Option 7</option>-->
-<!--	</select>-->
-
-<!--	<span class="test1">1</span>-->
-<!--	<span class="test2">2</span>-->
-<!--	<span class="test3">3</span>-->
-
-<!--</div>-->
-
 <script src="assets/js/index.js"></script>
+<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0&callback=initMap&v=weekly"
+		defer
+></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0&callback=getMap"></script>-->
 </body>
 </html>
